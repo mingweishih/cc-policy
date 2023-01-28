@@ -1,0 +1,17 @@
+[package]
+name = "cc-policy"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.32"
+base64 = "0.13.0"
+serde_json = "1.0.39"
+serde = { version = "1.0.129", features = ["derive"] }
+serde_yaml = "0.9.13"
+glob = "0.3.0"
+clap = { version = "3.0", features = ["derive"] }
+checked_command = "0.2.4"
+oci-spec = { git = "https://github.com/containers/oci-spec-rs" }
